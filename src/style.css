@@ -15109,13 +15109,19 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-nav .active {
+header nav .active {
   background-color: #f43838;
 }
-nav a {
+header nav a {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 15px;
   color: #FFFFFF;
+}
+header img {
+  width: 50%;
+}
+header .col-2 {
+  padding: 0 0;
 }
 
 #banner {
@@ -15129,13 +15135,6 @@ nav a {
   opacity: 0.8;
 }
 
-header img {
-  width: 50%;
-}
-header .col-2 {
-  padding: 0 0;
-}
-
 .policebanner {
   font-family: "Courgette", cursive;
   color: #ffffff;
@@ -15143,7 +15142,7 @@ header .col-2 {
 .policebanner p {
   font-size: 30px !important;
 }
-.policebanner span {
+.policebanner em {
   font-size: 40px !important;
 }
 .policebanner a {
@@ -15160,38 +15159,21 @@ header .col-2 {
 #main1 {
   background-image: url("../images/main_bg.jpg");
 }
-#main1 .container {
-  position: relative;
+#main1 .row #mug {
+  color: #DB3545;
 }
-#main1 .container .img-haut-gauche {
-  position: absolute;
-  right: 89.5%;
-  bottom: 91%;
-}
-#main1 .container .img-haut-droite {
-  position: absolute;
-  left: 89.5%;
-  bottom: 91%;
-}
-#main1 .container .img-bas-gauche {
-  position: absolute;
-  right: 89.5%;
-  top: 91%;
-}
-#main1 .container .img-bas-droite {
-  position: absolute;
-  left: 89.5%;
-  top: 91%;
-}
-#main1 .container span {
-  background: bottom no-repeat url("../images/decoration_line.png");
-  height: 10px;
-  width: 100%;
-  display: inline-block;
+#main1 .row .mug {
+  border-right-color: #DB3545;
+  border-right-width: 5px;
+  border-right-style: solid;
 }
 #main1 .row i {
   font-size: 45px;
   color: #bdc3c7;
+}
+#main1 .row i:hover {
+  font-size: 45px;
+  color: #DB3545;
 }
 #main1 .row h1 {
   font-size: 30px;
@@ -15221,6 +15203,13 @@ header .col-2 {
   font-size: 18px;
   padding: 0 5px;
   text-align: center;
+}
+
+span {
+  background: bottom no-repeat url("../images/decoration_line.png");
+  height: 10px;
+  width: 100%;
+  display: inline-block;
 }
 
 h1 {

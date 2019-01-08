@@ -40,7 +40,7 @@
 <!-- FIN DE LA NAV  -->
 <!-- DEBUT DE LA BANNIERE -->
             <div class="text-center policebanner py-5">
-                <p class="tp">Whatever your <span class="text-uppercase">occasion</span> , <br> <span class="text-uppercase text-danger">taste</span> <span>makes</span>  it one <br>to<span> remember!</span></p>
+                <p class="tp">Whatever your <em class="text-uppercase">occasion</em> , <br> <em class="text-uppercase text-danger">taste</em> <em>makes</em>  it one <br>to<em> remember!</em></p>
                 <a href="#" class="btn btn-light badge-pill px-3 mx-2 my-4" role="button" aria-pressed="true">PURCHASE THEME</a>
                 <a href="#" class="btn btn-danger badge-pill px-3 mx-2 my-4" role="button" aria-pressed="true">LEARN MORE</a>
             </div>
@@ -52,13 +52,17 @@
 <!-- FIN DE LA BANNIERE -->
 <!-- DEBUT DE LA 1ER SECTION -->
     <section id="main1" class="py-5">
-        <div class="container bg-white text-center py-5">
-            <!-- LES BORDURES -->
-            <img class="img-haut-gauche" src="./images/box-left-top.png" alt="">
-            <img class="img-haut-droite" src="./images/box-right-top.png" alt="">
-            <img class="img-bas-gauche" src="./images/box-bottom-left.png" alt="">
-            <img class="img-bas-droite" src="./images/box-bottom_right.png" alt="">
-            <!-- FIN DES BORDURES -->
+        <div class="container bg-white text-center">
+            <!-- LES BORDURES HAUT -->
+            <div class="row">
+                <div class="col-6 text-left px-0">
+                    <img src="./images/box-left-top.png" alt="">
+                </div>
+                <div class="col-6 text-right px-0">
+                    <img src="./images/box-right-top.png" alt="">
+                </div>
+            </div>
+            <!-- FIN DES BORDURES HAUT -->
             <h1><b class="text-danger">OUR</b> Story</h1>
             <span></span>
             <p class="w-50 mx-auto my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sapiente vitae impedit nihil ad. Perspiciatis rerum, placeat dolor quisquam ducimus veritatis quo itaque alias necessitatibus explicabo? Praesentium suscipit est incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit optio ad sint molestias odit dolor soluta expedita a nostrum sapiente consequuntur tempore, totam sit debitis, nulla magni animi iure sequi!</p>
@@ -67,8 +71,8 @@
             <!-- DEBUT DU TABLEAU-->
             <!-- LIGNE DE BREAKFAST -->
             <div class="row border-right">
-                <div class="col-2 border-bottom">
-                    <i class="fas fa-mug-hot"></i>
+                <div class="col-2 border-bottom mug">
+                    <i class="fas fa-mug-hot" id="mug"></i>
                     <h1>BreakFast</h1>
                 </div>
                 <div class="col-5">
@@ -86,18 +90,18 @@
                     </div>
                 </div>
                 <div class="col-5">
-                        <div class="row mx-1">
-                            <div class="col-4">
-                                <img src="./images/menu_image_1.jpg" alt="">
-                            </div>
-                            <div class="col-5 text-left">
-                                <h6 class="m-0">Deer Steak with Potatoes</h6>
-                                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                            </div>
-                            <div class="col-3 align-self-center">
-                                <h4 class="text-danger">$35</h4>
-                            </div>
+                    <div class="row mx-1">
+                        <div class="col-4">
+                            <img src="./images/menu_image_1.jpg" alt="">
                         </div>
+                        <div class="col-5 text-left">
+                            <h6 class="m-0">Deer Steak with Potatoes</h6>
+                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-3 align-self-center">
+                            <h4 class="text-danger">$35</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- FIN DU BREAKFAST -->
@@ -122,18 +126,18 @@
                     </div>
                 </div>
                 <div class="col-5">
-                        <div class="row mx-1 py-2">
-                            <div class="col-4">
-                                <img src="./images/menu_image_1.jpg" alt="">
-                            </div>
-                            <div class="col-5 text-left">
-                                <h6 class="m-0">Deer Steak with Potatoes</h6>
-                                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                            </div>
-                            <div class="col-3 align-self-center">
-                                <h4 class="text-danger">$35</h4>
-                            </div>
+                    <div class="row mx-1 py-2">
+                        <div class="col-4">
+                            <img src="./images/menu_image_1.jpg" alt="">
                         </div>
+                        <div class="col-5 text-left">
+                            <h6 class="m-0">Deer Steak with Potatoes</h6>
+                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-3 align-self-center">
+                            <h4 class="text-danger">$35</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- FIN DU LUNCH -->
@@ -158,18 +162,18 @@
                     </div>
                 </div>
                 <div class="col-5">
-                        <div class="row mx-1 py-2">
-                            <div class="col-4">
-                                <img src="./images/menu_image_1.jpg" alt="">
-                            </div>
-                            <div class="col-5 text-left">
-                                <h6 class="m-0">Deer Steak with Potatoes</h6>
-                                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                            </div>
-                            <div class="col-3 align-self-center">
-                                <h4 class="text-danger">$35</h4>
-                            </div>
+                    <div class="row mx-1 py-2">
+                        <div class="col-4">
+                            <img src="./images/menu_image_1.jpg" alt="">
                         </div>
+                        <div class="col-5 text-left">
+                            <h6 class="m-0">Deer Steak with Potatoes</h6>
+                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-3 align-self-center">
+                            <h4 class="text-danger">$35</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- FIN DU SNACKS -->
@@ -194,19 +198,19 @@
                     </div>
                 </div>
                 <div class="col-5">
-                        <div class="row mx-1 py-2">
-                            <div class="col-4">
-                                <img src="./images/menu_image_1.jpg" alt="">
-                            </div>
-                            <div class="col-5 text-left">
-                                <h6 class="m-0">Deer Steak with Potatoes</h6>
-                                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                            </div>
-                            <div class="col-3 align-self-center">
-                                <h4 class="text-danger">$35</h4>
-                            </div>
+                    <div class="row mx-1 py-2">
+                        <div class="col-4">
+                            <img src="./images/menu_image_1.jpg" alt="">
+                        </div>
+                        <div class="col-5 text-left">
+                            <h6 class="m-0">Deer Steak with Potatoes</h6>
+                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-3 align-self-center">
+                            <h4 class="text-danger">$35</h4>
                         </div>
                     </div>
+                </div>
             </div>
             <!-- FIN DU DINER -->
             <div class="row border-right">
@@ -227,21 +231,31 @@
                     </div>
                 </div>
                 <div class="col-5">
-                        <div class="row mx-1 py-2">
-                            <div class="col-4">
-                                <img src="./images/menu_image_1.jpg" alt="">
-                            </div>
-                            <div class="col-5 text-left">
-                                <h6 class="m-0">Deer Steak with Potatoes</h6>
-                                <p>Welcome to Risotto restaurant website. Here we try to share our</p>
-                            </div>
-                            <div class="col-3 align-middle">
-                                <h4 class="text-danger">$35</h4>
-                            </div>
+                    <div class="row mx-1 py-2">
+                        <div class="col-4">
+                            <img src="./images/menu_image_1.jpg" alt="">
                         </div>
+                        <div class="col-5 text-left">
+                            <h6 class="m-0">Deer Steak with Potatoes</h6>
+                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-3 align-middle">
+                            <h4 class="text-danger">$35</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             <span class="py-5"></span>
+            <!-- LES BORDURES BAS -->
+            <div class="row">
+                <div class="col-6 text-left px-0">
+                    <img src="./images/box-bottom-left.png" alt="">
+                </div>
+                <div class="col-6 text-right px-0">
+                    <img src="./images/box-bottom_right.png" alt="">
+                </div>
+            </div>
+            <!-- FIN DES BORDURES BAS -->
         </div>
     </section>
 </body>
