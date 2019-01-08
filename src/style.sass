@@ -11,9 +11,29 @@
 @import './import/_story.sass'
 @import './import/_chef.sass'
 @import './import/_contact.sass'
-
+@import './import/_testiminials.sass'
+@import './import/_info.sass'
+@import './import/_footer.sass'
 
 // NE PAS TOUCHER
+html
+    scroll-behavior: smooth
+.bg-opacity
+    height: 100%
+    background-color: $colorBlack
+    opacity: $opacity
+.bord-courber
+    border-radius: $borderRadius
+.decoration-haut
+    background: $colorBlack repeat-x bottom url("../images/bottom_decoration_img.png")
+    height: 10px
+    opacity: $opacity
+.decoration-bas
+    background: $colorBlack repeat-x bottom url("../images/footer_bottom_decoration_img.png")
+    height: 10px
+b
+    font-weight: normal !important
+    color: $colorRed
 span
     background: bottom no-repeat url("../images/decoration_line.png")
     height: 10px
