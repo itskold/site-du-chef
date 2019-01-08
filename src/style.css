@@ -15195,7 +15195,7 @@ header .col-2 {
 }
 #main1 .row .row img {
   border-radius: 100%;
-  border: solid 4px #bdc3c7;
+  border: solid #bdc3c7 4px;
   width: 90%;
 }
 #main1 .row .row h4 {
@@ -15205,18 +15205,96 @@ header .col-2 {
   text-align: center;
 }
 
+#chef {
+  background-color: #000000;
+}
+#chef img {
+  border-bottom: solid 1px #ffffff;
+}
+#chef h6 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact {
+  background-image: url("../images/main_bg.jpg");
+  overflow: hidden;
+}
+#contact #bg-formulaire {
+  background-image: url("../../images/book_table_bg.jpg");
+  border-radius: 20px 20px;
+}
+#contact .row {
+  margin: 5px 0;
+}
+#contact .row button {
+  border-radius: 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px 9px;
+}
+#contact .row .btn-group button {
+  padding-bottom: 11px !important;
+}
+#contact h6 {
+  font-size: 20px;
+}
+#contact h5 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+#contact h4 {
+  font-size: 15px;
+}
+
+#blog img {
+  border-radius: 20px 20px;
+  border: solid #bdc3c7 4px;
+}
+#blog .row .col-sm-5 h6 {
+  display: inline-block;
+  border-radius: 10px 10px;
+  padding: 10px;
+  padding-right: 20px;
+  margin-bottom: 0;
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: -50px;
+}
+#blog .row .col-sm-5 h6 b {
+  font-size: 30px;
+}
+#blog .row .col-sm-5 h5 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+#blog .row .col-sm-5 p {
+  text-align: left;
+}
+
 span {
   background: bottom no-repeat url("../images/decoration_line.png");
   height: 10px;
   width: 100%;
   display: inline-block;
+  text-align: center;
 }
 
 h1 {
   font-family: "Courgette", cursive;
 }
 
+h5 {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
 h6 {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+h4 {
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
