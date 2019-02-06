@@ -15350,6 +15350,10 @@ footer {
   position: relative;
 }
 
+.nav-text-red {
+  color: #B02939;
+}
+
 html {
   scroll-behavior: smooth;
 }
