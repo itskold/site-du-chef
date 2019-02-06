@@ -12,9 +12,47 @@ header
             background-color: $colorRed
     .col-2
         padding: 0 0    
-#banner
-    height: 869px
-    background: center / contain no-repeat url('../images/banner1.jpg')
+#slide #carouselExampleIndicators 
+    height: 100vh
+    position: relative
+    img 
+        filter: brightness(0.2)
+        height: 100vh
+        width: auto
+    
+    .carousel-point 
+        height: 16px !important
+        width: 16px !important
+        border-radius: 50% !important
+    
+    .active 
+        background-color: white
+        position: relative
+        .point 
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            background-color: white
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            border: 3px solid rgba(0, 0, 0, 0.699)
+        
+    
+    #text-accueil 
+        z-index: 1000
+        font-family: Courgette
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        li button 
+            font-family: Arial, Helvetica, sans-serif
+            border-radius: 30px
+        
+    
+
 .policebanner
     font-family: $policeBanner
     color: $colorWhite

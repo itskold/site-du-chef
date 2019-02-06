@@ -1,41 +1,65 @@
 // MODIFICATION POUR LE MENU ET LA PRESENTATION DU RESTAURANT
-#main1
-    background-image: url('../images/main_bg.jpg')
-    .row
-        #mug
-            color: #DB3545
-        .mug
-            border-right-color: #DB3545
-            border-right-width: 5px
-            border-right-style: solid
-        i
-            font-size: 45px
-            color: $argent
-        i:hover
-            font-size: 45px
-            color: #DB3545
-        h1
-            font-size: 30px
-        .col-2
-            height: 83px
-        .row
-            border-bottom: dashed
-            border-bottom-width: 1px
-            h6
-                font-weight: bold
-                font-size: 20px
-            p
-                font-size: 15px !important
-                font-family: $policeText
-            img
-                border-radius: 100% 
-                border: $borderVisible
-                width: 90%
-            h4
-                background-color: $argent
-                font-size: 18px
-                padding: 0 5px
-                text-align: center
-
-
+.menu 
+    background-image: url(../../public/images/main_bg.jpg)
+    padding-top: 5%
+    padding-bottom: 5%
+    .container 
+        background-color: white
+        position: relative
+        img.corner-1 
+            position: absolute
+            top: 0
+            left: 0
+         
+        img.corner-2 
+            position: absolute
+            top: 0
+            right: 0
+         
+        img.corner-3 
+            position: absolute
+            bottom: 0
+            left: 0
+         
+        img.corner-4 
+            position: absolute
+            bottom: 0
+            right: 0
         
+        h1 
+            font-family: Courgette
+        
+        .tabulation 
+            font-family: Courgette
+            border-right: solid 1px lightgray
+            padding-right: 0
+
+            .nav-link 
+                color: black
+                border-bottom: solid 1px lightgray
+                border-radius: 0%
+                i 
+                    color: lightgray
+                    padding-top: 10px
+                    padding-bottom: 10px
+                
+            
+            .active 
+                background-color: white !important
+                color: dark !important
+                border-right: solid #B02939 5px !important
+                i 
+                    color: #B02939 !important
+                
+            
+        
+        .carte-menu 
+            .media 
+                border-bottom: dotted 1px lightgray
+            
+            .badge 
+                background-color: lightgray
+            
+        
+    
+
