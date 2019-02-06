@@ -1,8 +1,21 @@
 // MODIFICATION DES CHEFS
-#chef
-    background-color: $colorBlack
-    img
-        border-bottom: solid 1px $colorWhite
-    h6
-        text-align: center
-        color: $colorWhite
+.chef 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479), black), url("../../public/images/team_background.jpg")
+    h1 
+        font-family: Courgette
+    
+    .row img 
+        border-bottom: solid 1px lightgray
+    
+    .col-md-3, .col-sm-12 
+        position: relative
+        overflow: hidden
+        .appear 
+            position: absolute
+            bottom: -170px
+            transition-duration: .5s 
+    .col-md-3:hover  .appear 
+        bottom: 0px
+    
+    .col-sm-12:hover  .appear 
+        bottom: 0px

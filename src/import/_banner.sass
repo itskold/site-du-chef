@@ -1,17 +1,39 @@
-// POOUR TOUTE MODIFICATION AU HEADER (NAV + BANNER)
-header
-    nav
-        .active
-            background-color: #f43838
-        a
-            font-family: $policeText
-            font-size: 15px
-            color: $colorWhite
-        a:hover
-            color: $colorWhite
-            background-color: $colorRed
-    .col-2
-        padding: 0 0    
+
+#nav-1, #nav-2, #nav-3 
+    transition-duration: .5s
+
+.link 
+    position: relative
+    #a-about 
+        position: absolute
+        top: 804px
+    
+    #a-menu 
+        position: absolute
+        top: 1320px
+    
+    #a-team 
+        position: absolute
+        top: 2230px
+    
+    #a-reserve 
+        position: absolute
+        top: 3090px
+    
+    #a-blog 
+        position: absolute
+        top: 3870px
+    
+    #a-testimonials 
+        position: absolute
+        top: 4670px
+    
+    #a-contact 
+        position: absolute
+        top: 5350px
+    
+
+
 #slide #carouselExampleIndicators 
     height: 100vh
     position: relative
@@ -49,17 +71,15 @@ header
         transform: translate(-50%, -50%)
         li button 
             font-family: Arial, Helvetica, sans-serif
-            border-radius: 30px
+            border-radius: $bor-30
         
     
 
-.policebanner
-    font-family: $policeBanner
-    color: $colorWhite
-    p
-        font-size: 2em !important
-    em
-        font-size: 2em !important
-    a
-        font-size: 12px
-        font-family: $policeText
+.bottom-section 
+    z-index: 1000
+    position: absolute
+    bottom: 0px
+    height: 10px
+    width: 100%
+    background-image: url("../../public/images/bottom_decoration_img.png")
+
