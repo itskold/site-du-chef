@@ -4,7 +4,7 @@ let navbar2 = document.querySelectorAll('#nav-3 li a')
 let border2 = document.querySelectorAll('#nav-3')
 let logo = document.querySelectorAll("#nav-2 img")
 let banner = document.getElementById('slide')
-let buttonNav = document.querySelectorAll('#nav #nav-1 li')
+let buttonNav = document.querySelectorAll('#nav li')
 
 
 // for(let i=1;i<buttonNav.length;i++){
