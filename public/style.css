@@ -15113,38 +15113,6 @@ readers do not read off random characters that represent icons */
   transition-duration: 0.5s;
 }
 
-.link {
-  position: relative;
-}
-.link #a-about {
-  position: absolute;
-  top: 804px;
-}
-.link #a-menu {
-  position: absolute;
-  top: 1320px;
-}
-.link #a-team {
-  position: absolute;
-  top: 2230px;
-}
-.link #a-reserve {
-  position: absolute;
-  top: 3090px;
-}
-.link #a-blog {
-  position: absolute;
-  top: 3870px;
-}
-.link #a-testimonials {
-  position: absolute;
-  top: 4670px;
-}
-.link #a-contact {
-  position: absolute;
-  top: 5350px;
-}
-
 #slide #carouselExampleIndicators {
   height: 100vh;
   position: relative;
@@ -15196,90 +15164,90 @@ readers do not read off random characters that represent icons */
   background-image: url("../../public/images/bottom_decoration_img.png");
 }
 
-.menu {
+#about {
   background-image: url("../../public/images/main_bg.jpg");
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.menu .container {
+#about .container {
   background-color: white;
   position: relative;
 }
-.menu .container img.corner-1 {
+#about .container img.corner-1 {
   position: absolute;
   top: 0;
   left: 0;
 }
-.menu .container img.corner-2 {
+#about .container img.corner-2 {
   position: absolute;
   top: 0;
   right: 0;
 }
-.menu .container img.corner-3 {
+#about .container img.corner-3 {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.menu .container img.corner-4 {
+#about .container img.corner-4 {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.menu .container h1 {
+#about .container h1 {
   font-family: Courgette;
 }
-.menu .container .tabulation {
+#about .container .tabulation {
   font-family: Courgette;
   border-right: solid 1px lightgray;
   padding-right: 0;
 }
-.menu .container .tabulation .nav-link {
+#about .container .tabulation .nav-link {
   color: black;
   border-bottom: solid 1px lightgray;
   border-radius: 0%;
 }
-.menu .container .tabulation .nav-link i {
+#about .container .tabulation .nav-link i {
   color: lightgray;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.menu .container .tabulation .active {
+#about .container .tabulation .active {
   background-color: white !important;
   color: dark !important;
   border-right: solid #B02939 5px !important;
 }
-.menu .container .tabulation .active i {
+#about .container .tabulation .active i {
   color: #B02939 !important;
 }
-.menu .container .carte-menu .media {
+#about .container .carte-menu .media {
   border-bottom: dotted 1px lightgray;
 }
-.menu .container .carte-menu .badge {
+#about .container .carte-menu .badge {
   background-color: lightgray;
 }
 
-.chef {
+#chef {
   background-image: linear-gradient(rgba(0, 0, 0, 0.479), black), url("../../public/images/team_background.jpg");
 }
-.chef h1 {
+#chef h1 {
   font-family: Courgette;
 }
-.chef .row img {
+#chef .row img {
   border-bottom: solid 1px lightgray;
 }
-.chef .col-md-3, .chef .col-sm-12 {
+#chef .col-md-3, #chef .col-sm-12 {
   position: relative;
   overflow: hidden;
 }
-.chef .col-md-3 .appear, .chef .col-sm-12 .appear {
+#chef .col-md-3 .appear, #chef .col-sm-12 .appear {
   position: absolute;
   bottom: -170px;
   transition-duration: 0.5s;
 }
-.chef .col-md-3:hover .appear {
+#chef .col-md-3:hover .appear {
   bottom: 0px;
 }
-.chef .col-sm-12:hover .appear {
+#chef .col-sm-12:hover .appear {
   bottom: 0px;
 }
 
